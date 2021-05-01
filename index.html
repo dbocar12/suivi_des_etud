@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>fiche_appreciation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet"
+          type="text/css"/>
+
+    <style>
+        .card-default {
+            color: #333;
+            background: linear-gradient(#fff,#ebebeb) repeat scroll 0 0 transparent;
+            font-weight: 600;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body class="text-center">
+<div class="container-fluid">
+    <!------ Include the above in your HEAD tag ---------->
+
+    <div class="container">
+        <div id="accordion">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="float-left" src="assets/img/logoispg.jpg?h=a7a0b4c3b1dc17b3f86319bd6034c464" width="800"
+                         height="90" alt="logo ispg">
+                    <img class="img-fluid float-right"
+                         src="assets/img/banner_up13.gif?h=d1d62d7488f8d99d63404b087832fae6" alt="logo uspn">
+                </div>
+            </div>
+
+            <div class="card card-default">
+                <div class="card-header">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            <i class="glyphicon glyphicon-search text-gold"></i>
+                            <b>Stagiaire</b>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="collapse show">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-6">
+                                <div class="form-group">
+                                    <label class="control-label">Nom</label>
+                                    <input class="form-control" type="text"/>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-lg-6">
+                                <div class="form-group">
+                                    <label class="control-label">Prénom</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="col-md-2 col-lg-12">
+                                    <div class="form-group">
+                                        <label class="control-label">Titre du stage</label>
+                                        <input type="text" class="form-control"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-2 col-lg-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Dates de stage: du </label>
+                                        <div class="input-group date">
+                                            <input class="form-control" type="text"/>
+                                            <span class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                        <i class="fa fa-calendar"></i>
+                                    </button></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-lg-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Au </label>
+                                        <div class="input-group date">
+                                            <input class="form-control" type="text"/>
+                                            <span class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                        <i class="fa fa-calendar"></i>
+                                    </button></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-1 col-lg-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Nombre de semaine</label>
+                                        <input class="form-control" type="number"/>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        <div class="row">
+                            <div class="col-md-3 col-lg-6">
+                                <div class="form-group">
+                                    <label class="control-label">Entreprise</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-lg-6">
+                                <div class="form-group">
+                                    <label class="control-label">Service</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-default">
+                <div class="card-header">
+                    <h4 class="card-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            <i class="glyphicon glyphicon-lock text-gold"></i>
+                            <b>Responsable direct du stage</b>
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="collapse show">
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-md-3 col-lg-6">
+                                <div class="form-group">
+                                    <label class="control-label">Nom</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-lg-6">
+                                <div class="form-group">
+                                    <label class="control-label">Prénom</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 col-lg-5">
+                                <div class="form-group">
+                                    <label class="control-label">Tel</label>
+                                    <input type="text" class="phone form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-3">
+                                <div class="form-group">
+                                    <label class="control-label">Fax</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4">
+                                <label class="control-label">Courriel</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <table class="table table-primary">
+                                    <thead>
+                                    <tr>
+                                        <th>
+                                            <span class="float-left">Appréciation sur le stagiaire</span>
+                                        </th>
+                                        <th>
+                                            Excellent
+                                        </th>
+                                        <th>
+                                            Bon
+                                        </th>
+
+                                        <th>
+                                            Moyen
+                                        </th>
+
+                                        <th>
+                                            Insuffisant
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th >
+                                            <span class="float-left">Qualité du travail&nbsp;</span>
+                                        </th>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>
+                                            Faculté d’organisation
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facOrg">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facOrg">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facOrg">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facOrg">
+                                            </label>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            Efficacité
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="efficacite">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="efficacite">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="efficacite">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="efficacite">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Initiative
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="initiative">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="initiative">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="initiative">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="initiative">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Faculté de communication
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facComm">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facComm">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facComm">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="facComm">
+                                            </label>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th  >
+                                            <span class="float-left">Imagination créatrice&nbsp;</span>
+                                        </th>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            Au niveau des idées
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivIdee">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivIdee">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivIdee">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivIdee">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Au niveau des réalisations concrètes
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivReal">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivReal">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivReal">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="nivReal">
+                                            </label>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th >
+                                            <span class="float-left">Rapports humains dans la vie professionnelle&nbsp;</span>
+                                        </th>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            Aisance avec les supérieurs
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecSuper">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecSuper">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecSuper">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecSuper">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Aisance avec les collaborateurs
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecColla">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecColla">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecColla">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="aisAvecColla">
+                                            </label>
+                                        </td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <th >
+                                            <span class="float-left">Comportement&nbsp;</span>
+                                        </th>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Politesse, correction
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="poliCorrec">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="poliCorrec">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="poliCorrec">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="poliCorrec">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Présence, ponctualité
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="presPonct">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="presPonct">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="presPonct">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="presPonct">
+                                            </label>
+                                        </td>
+                                    </tr>
+
+
+
+                                    <tr>
+                                        <th >
+                                            <span class="float-left">Rapport de stage</span>
+                                        </th>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                        <td >
+                                            <p><strong>&nbsp;</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Fond
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="fond">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="fond">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="fond">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="fond">
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Forme : Présentation, style
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="forme">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="forme">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="forme">
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label class="control-label">
+                                                <input type="radio" name="forme">
+                                            </label>
+                                        </td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <label class="control-label float-left"><strong>Appréciation générale :</strong></label>
+                                <textarea rows="6" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-md-1 col-lg-12">
+                                <div class="form-group">
+                                    <label class="control-label"><strong>Note estimée de l’ingénieur (sur 20)</strong></label>
+                                    <input class="form-control" type="number"/>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                        <div class="col-lg-12">
+                            <table class="table table-primary">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        <span class="float-left">Appréciation sur l'école</span>
+                                    </th>
+                                    <th>
+                                        Excellent
+                                    </th>
+                                    <th>
+                                        Bon
+                                    </th>
+
+                                    <th>
+                                        Moyen
+                                    </th>
+
+                                    <th>
+                                        Insuffisant
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th >
+                                        <span  class="float-left">Formation scientifique adaptée&nbsp;</span>
+                                    </th>
+                                    <td >
+                                        <p><strong>&nbsp;</strong></p>
+                                    </td>
+                                    <td >
+                                        <p><strong>&nbsp;</strong></p>
+                                    </td>
+                                    <td >
+                                        <p><strong>&nbsp;</strong></p>
+                                    </td>
+                                    <td >
+                                        <p><strong>&nbsp;</strong></p>
+                                    </td>
+                                    <td >
+                                        <p><strong>&nbsp;</strong></p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        Formation à la communication
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="facALaComm">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="facALaComm">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="facALaComm">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="facALaComm">
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Contacts avec l’enseignant responsable
+
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="contactAvecEnsei">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="contactAvecEnsei">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="contactAvecEnsei">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="control-label">
+                                            <input type="radio" name="contactAvecEnsei">
+                                        </label>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <label class="control-label float-left">Souhaiteriez-vous reprendre un stagiaire ?</label>
+                                <label class="control-label">
+                                    <input type="radio" name="souhaitePrendreStagiaire">
+                                    Oui
+                                </label>
+                                <label class="control-label">
+                                    <input type="radio" name="souhaitePrendreStagiaire">
+                                    Non
+                                </label>
+
+                                <label class="control-label">
+                                <span> : </span>
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <hr/>
+                        </div>
+                            <label class="control-label float-left"><strong>Autres  remarques :</strong></label>
+                            <textarea rows="6" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="pull-right">
+                    <a href="#" class="btn btn-success btn-lg" id="btnSubmit"><i class="fa fa-save"></i> Valider </a>
+                    <a class="btn btn-warning btn-lg" href="#" id="btnToTop"><i class="fa fa-arrow-up"></i> Haut </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
